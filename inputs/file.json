@@ -1,0 +1,37 @@
+{
+  "messageServer": {
+    "host": "127.0.0.1",
+    "port": 6689
+  },
+  "inputs": [
+    {
+      "source": "ran-regulator",
+      "stream": "logs",
+      "config": {
+        "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/ran-regulator.*"
+      }
+    },
+    {
+      "source": "mno-1",
+      "stream": "logs",
+      "config": {
+        "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/mno-1.*"
+      }
+    },
+    {
+      "source": "mno-2",
+      "stream": "logs",
+      "config": {
+        "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/mno-2.*"
+      }
+    },
+    {
+      "source": "csp",
+      "stream": "logs",
+      "config": {
+        "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/csp.*"
+      }
+    }
+
+  ]
+}
