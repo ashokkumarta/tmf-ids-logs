@@ -26,7 +26,7 @@
       }
     },
     {
-      "source": "csp",
+      "source": "RANSharing# CSP",
       "stream": "logs",
       "config": {
         "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/csp.*"
