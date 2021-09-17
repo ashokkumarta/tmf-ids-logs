@@ -5,28 +5,28 @@
   },
   "inputs": [
     {
-      "source": "ran-regulator",
+      "source": "RAMSharing#EnergyRegulator",
       "stream": "logs",
       "config": {
         "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/ran-regulator.*"
       }
     },
     {
-      "source": "mno-1",
+      "source": "RAMSharing#MNO-1",
       "stream": "logs",
       "config": {
         "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/mno-1.*"
       }
     },
     {
-      "source": "mno-2",
+      "source": "RAMSharing#MNO-2",
       "stream": "logs",
       "config": {
         "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/mno-2.*"
       }
     },
     {
-      "source": "RANSharing# CSP",
+      "source": "RANSharing#CSP",
       "stream": "logs",
       "config": {
         "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/csp.*"
