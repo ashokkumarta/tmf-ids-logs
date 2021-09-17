@@ -1,0 +1,22 @@
+{
+  "messageServer": {
+    "host": "10.0.0.4",
+    "port": 6689
+  },
+  "inputs": [
+    {
+      "source": "RAMSharing#MNO-1",
+      "stream": "logs",
+      "config": {
+        "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/mno-1.*"
+      }
+    },
+    {
+      "source": "RAMSharing#MNO-2",
+      "stream": "logs",
+      "config": {
+        "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/mno-2.*"
+      }
+    }
+  ]
+}

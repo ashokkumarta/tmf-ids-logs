@@ -1,0 +1,24 @@
+{
+    "messageServer": {
+      "host": "10.0.0.4",
+      "port": 6689
+    },
+    "inputs": [
+      {
+        "source": "RAMSharing#EnergyRegulator",
+        "stream": "logs",
+        "config": {
+          "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/ran-regulator.*"
+        }
+      },
+      {
+        "source": "RANSharing#CSP",
+        "stream": "logs",
+        "config": {
+          "path": "/home/azureuser/ids/git/tmf-ids-test/connectors/logs/csp.*"
+        }
+      }
+  
+    ]
+  }
+  
